@@ -1,0 +1,60 @@
+{
+  "manifest_version": 2,
+  "name": "TabFiddler",
+  "version": "1.0",
+
+  "description": "Alphabetize and rearrange tabs using keyboard shortcuts.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "background": {
+    "scripts": ["TabFiddler.js"]
+  },
+
+  "commands": {
+    "move-to-front": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "linux": "Ctrl+Shift+U"
+      },
+     "description": "Send a 'toggle-feature' event"
+    },
+    "move-to-back": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+I",
+        "linux": "Ctrl+Shift+Y"
+      },
+     "description": "Send a 'toggle-feature' event"
+    },
+    "move-right": {
+      "suggested_key": {
+        "default": "Alt+Right",
+        "linux": "Ctrl+Shift+S"
+      },
+     "description": "Send a 'toggle-feature' event"
+    },
+    "move-left": {
+      "suggested_key": {
+        "default": "Alt+Left",
+        "linux": "Ctrl+Shift+A"
+      },
+     "description": "Send a 'toggle-feature' event"
+    },
+    "alphabetical-order": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+O",
+        "linux": "Ctrl+Shift+K"
+      },
+     "description": "Send a 'toggle-feature' event"
+    }
+  },
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ]
+
+}
