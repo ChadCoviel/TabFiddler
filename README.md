@@ -6,7 +6,7 @@ This Firefox extension was written in Javascript.
 
 # How To Use
 
-Clone this repository. Open up a firefox browser and navigate to about:debugging. This will take you to firefox's settings page for debugging. Make sure that enable add-on debugging is enabled and then click on 'Load Temporary Add-on' and choose the manifest.json file from the cloned repository folder. 
+Clone this repository. Open up a firefox browser and navigate to about:debugging. This will take you to firefox's settings page for debugging. Make sure that the 'enable add-on debugging' option is enabled and then click on 'Load Temporary Add-on' and choose the manifest.json file from the cloned repository folder. You can then use the commands listed below to manipulate your tabs.
 
 # Commands
 
